@@ -1,0 +1,26 @@
+.footer{
+    font-family: "Segoe UI";
+    background-color: #3D5361;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E1DAD8;
+    height: 12vh;
+}
+
+#copy, #contact{
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media  screen and (max-width: 300px) {
+    #copy, #contact{font-size: 1em}
+    .footer{font-size: small; padding:3px;}
+}
